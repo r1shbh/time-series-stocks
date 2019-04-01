@@ -7,12 +7,15 @@ Source OCLHV data for NSE stocks (INFY,TCS) between 2015-2016. Data level - Dail
 Source OCLHV data for NIFTY IT index. Data level - Daily.
  
 Part 1:
-1. Create 4,16,....,52 week moving average(closing price) for each stock and index. This should happen through a function.
-2. Create the following dummy time series:
-2.1 Volume shocks - If volume traded is 10% higher/lower than previous day - make a 0/1 boolean time series for shock, 0/1 dummy-coded time series for direction of shock.
-2.2 Price shocks - If closing price at T vs T+1 has a difference > 2%, then 0/1 boolean time series for shock, 0/1 dummy-coded time series for direction of shock.
-2.3 Pricing black swan - If closing price at T vs T+1 has a difference > 2%, then 0/1 boolean time series for shock, 0/1 dummy-coded time series for direction of shock.
-2.4 Pricing shock without volume shock - based on points a & b - Make a 0/1 dummy time series.
+
+Moving Averages
+Create 4,16,....,52 week moving average(closing price) for each stock and index. This should happen through a function.
+
+Dummy series:
+1. Volume shocks - If volume traded is 10% higher/lower than previous day - make a 0/1 boolean time series for shock, 0/1 dummy-coded time series for direction of shock.
+2. Price shocks - If closing price at T vs T+1 has a difference > 2%, then 0/1 boolean time series for shock, 0/1 dummy-coded time series for direction of shock.
+3. Pricing black swan - If closing price at T vs T+1 has a difference > 2%, then 0/1 boolean time series for shock, 0/1 dummy-coded time series for direction of shock.
+4. Pricing shock without volume shock - based on points a & b - Make a 0/1 dummy time series.
  
 Part 2 (data visualization ):
 For this section, you can use only bokeh. https://bokeh.pydata.org/en/latest/docs/gallery.html
