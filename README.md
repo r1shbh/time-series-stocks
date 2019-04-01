@@ -1,5 +1,7 @@
-# python-test
-Playing with NSE data using Time Series Analysis and Bokeh Visualization. Task given by redcarpetup.com 
+# RedCarpetUp Task
+Playing with NSE data using Time Series Analysis and Bokeh Visualization. Task given by redcarpetup.com.
+
+The following tasks have been completed in the following notebook.
 
 Dataset selection:
 Use: https://github.com/swapniljariwala/nsepy
