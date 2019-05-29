@@ -1,5 +1,5 @@
-# RedCarpetUp Task
-Playing with NSE data using Time Series Analysis and Bokeh Visualization. Task given by redcarpetup.com.
+# Time Series Analysis on Stocks
+Playing with NSE data from year 2015-2016 using Time Series Analysis and Bokeh Visualization.
 
 The following tasks have been completed in the following notebook.
 
